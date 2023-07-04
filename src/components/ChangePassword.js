@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { API } from "./Global";
+import { API } from "../Global";
 import { useFormik } from "formik";
 import { toast, Toaster } from "react-hot-toast";
 import UserContext from "../context/UserContext";

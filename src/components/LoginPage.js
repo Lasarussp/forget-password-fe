@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import { toast, Toaster } from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import UserContext from "../context/UserContext";
-import { API } from "./Global";
+import { API } from "../Global";
 import Spinner from "./Spinner";
 
 function LoginPage() {

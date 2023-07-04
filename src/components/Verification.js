@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import axios from "axios";
 import UserContext from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
-import { API } from "./Global";
+import { API } from "../Global";
 import { toast, Toaster } from "react-hot-toast";
 
 function Verification() {
