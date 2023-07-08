@@ -20,7 +20,7 @@ function App() {
         <Route path="/ChangePassword" element={<ChangePassword />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/Verification" element={<Verification />} />
-        <Route path="*" element={<Notfound />} />
+        <Route path="*" element={<Notfound /> } />
       </Routes>
     </UserProvider>
   );
